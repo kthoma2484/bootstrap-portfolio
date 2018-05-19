@@ -6,30 +6,19 @@ body {
   /* general */
 
   
-  h1,
-  h2,
-  h3 {
+  h1 {
     font-family: Georgia, Times, "Times New Roman", serif;
     color: #4aaaa5;
-  }
-  
-  h1 {
     font-size: 30px;
-  }
-  
-  h2,
-  h3 {
-    font-size: 22px;
   }
   
   p {
     font-size: 16px;
   }
 
-  .img-contain {
-    width: 250px;
-    height: 175px;
-    margin: 20px;
+.height-ext {
+  max-height: 700px;
+  overflow: auto;
 }
 
   /* Navbar */
@@ -111,7 +100,6 @@ body {
     flex-wrap: wrap;
     padding-top: 20px;
     max-height: 800px;
-    padding-top: 20px;
     overflow: hidden;
 
   }
@@ -119,6 +107,7 @@ body {
   .img-contain {
       width: 250px;
       height: 175px;
+      margin: 20px;
   }
 
   /* contact page */
